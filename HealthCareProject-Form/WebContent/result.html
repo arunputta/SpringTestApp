@@ -1,0 +1,48 @@
+
+
+<h1 style="color:red;text-align:center">Patient Register Form</h1>
+
+<form action = "controller" method="GET">
+  
+  <table border="1" bgcolor="cyan" align="center">
+     <tr>
+       <td>SerialNumber</td>
+       <td><input type="text" name="srNo"></td> 
+      </tr>
+      <tr>
+       <td>FirstName</td>
+       <td><input type="text" name="fName"></td> 
+      </tr>
+      <tr>
+       <td>LastName</td>
+       <td><input type="text" name="lName"></td> 
+      </tr>
+      <tr>
+       <td>E-Mail ID</td>
+       <td><input type="mail" name="MailId" required></td> 
+      </tr>
+      <tr>
+       <td>Mobile Number</td>
+       <td><input type="text" name="MobNo" required></td> 
+      </tr>
+      <tr>
+       <td>Gender</td>
+       <td><input type="radio" name="gender" value="M">Male &nbsp;&nbsp;&nbsp;
+           <input type="radio" name="gender" value="F">FeMale
+       </td> 
+      </tr>
+      <tr>
+       <td>Age</td>
+       <td><input type="text" name="age" required></td> 
+      </tr>
+      <tr>
+       <td>DateOfBirth</td>
+       <td><input type="Date" name="date" value="Date"></td> 
+      </tr>
+      
+        <td align="center"><input type="submit" name="sb" value="SUBMIT"></td>
+        <td> <input type="reset" name="rs" value="reset"> </td>
+     
+  </table>
+  
+</form>
